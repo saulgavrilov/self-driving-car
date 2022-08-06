@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #2c3e50;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#carCanvas {
+  background: #34495e;
+}
+
+#networkCanvas {
+  background: black;
+}
+
+#verticalButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+#verticalButtons button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+#verticalButtons button:hover {
+  background: #34495e;
+  color: #ffffff;
+}
